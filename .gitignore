@@ -2,8 +2,10 @@
 .swp
 *.log
 *.sqlite3
+bin/*
 pkg/*
 coverage/*
 doc/*
+vendor/*
 benchmarks/*
 .specification

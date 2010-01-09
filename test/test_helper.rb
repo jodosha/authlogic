@@ -1,5 +1,11 @@
+environment = File.expand_path('../../vendor/gems/environment', __FILE__)
+if File.exist?("#{environment}.rb")
+  require environment
+else
+  require "rubygems"
+end
+
 require "test/unit"
-require "rubygems"
 require "ruby-debug"
 require "active_record"
 require "active_record/fixtures"
